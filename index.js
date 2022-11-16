@@ -1,7 +1,7 @@
 const app = require('express')()
 
 app.get('/', (req, res) => {
-    res.send("Hi Mizan, noew work")
+    res.send("Hi Mizan")
 })
 
 const port = process.env.PORT || 3000;
